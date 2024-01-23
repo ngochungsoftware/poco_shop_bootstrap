@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .falling-flowers {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: #ffcc00; /* Màu của hoa rơi, bạn có thể thay đổi */
+    border-radius: 50%;
+    animation: fall 5s linear infinite;
+  }
+  
+  @keyframes fall {
+    to {
+      transform: translateY(100vh);
+    }
+  }
+  
